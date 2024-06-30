@@ -46,7 +46,7 @@ Although the H-bridge could not be switched, the bottom two MOSFET drivers did w
 
 Figure 6: Gate voltages across each of the two low-side MOSFETs.
 
-To prove that the above SPWM would result in a 50 Hz signal, the signals from the ESP32 (applied to the drivers) were filtered and the results were two back-to-back, 50 Hz sine waves (Figure 7).
+To prove that the above SPWM would result in a 50 Hz signal, the signals from the 3.3V microcontroller (to be applied to the drivers) were filtered and the results were two back-to-back, 50 Hz sine waves (Figure 7).
 
 <img src="images/dual_filtered_spwm_50Hz.jpg" width="500" />
 
