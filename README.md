@@ -14,6 +14,18 @@ A good example of my ignorance in the real-world scenario was that I thought pow
 
 Figure 1: The inverter PCB (excluding the transformer)
 
+<table>
+  <tr>
+    <td>First Screen Page</td>
+     <td>Holiday Mention</td>
+     <td>Present day in purple and selected day in pink</td>
+  </tr>
+  <tr>
+    <td valign="top"><img src="images/3d_model_perspective.PNG" width="200" /></td>
+    <td valign="top"><img src="images/3d_model_perspective.PNG" width="200" /></td>
+  </tr>
+ </table>
+
 There were also some serious mistakes with the PCB which could have been resolved had I left more time for such issues. I did not consider the fact that the university’s PCB manufacturing service did not plate vias through, since it was a cutting machine. This left me with the impossible task of making a solid soldering connection for the legs of the inductors in the tiny space in-between them and the PCB, and since the inductors were so large the solder would not melt against the legs. Another crucial mistake was choosing the wrong footprint for the MOSFET driver IC, opting for tiny pads instead of pins. This forced me to consult a soldering specialist to connect intricate wires from each PCB pad to each pad on the IC.
 
 <img src="images/PCB_partially_populated_bottom.png" width="500" />
