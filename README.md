@@ -30,13 +30,7 @@ Although my report was already submitted, I did what I could to be prepared for 
 
 ### Some Final Results
 
-<video width="320" height="240" controls>
-    <source src="images/filtered_spwm_mod_index_tuning.mp4" type="video/mp4">
-    Your browser does not support the video tag.
-  </video>
-
-<img src="" width="500" />
-
+<video width="320" height="240" controls><source src="images/filtered_spwm_mod_index_tuning.mp4" type="video/mp4">Your browser does not support the video tag.</video>
 
 ## Presentation Video
 
