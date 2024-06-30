@@ -28,9 +28,29 @@ Although my report was already submitted, I did what I could to be prepared for 
 
 <img src="images/circuit_perspective.jpg" width="500" />
 
+Figure 3: Perspective view of the inverter PCB.
+
+<img src="images/circuit_top.jpg" width="500" />
+
+Figure 4: Top view of the inverter PCB.
+
+<img src="images/circuit_bottom.jpg" width="500" />
+
+Figure 5: Bottom view of the inverter PCB.
+
 ### Some Final Results
 
-[![Watch the video](https://raw.githubusercontent.com/username/repository/branch/path/to/thumbnail.jpg)](https://github.com/RichardKnipe/Project-E-448-2023/blob/main/images/filtered_spwm_mod_index_tuning.mp4)
+Although the H-bridge could not be switched, the bottom two MOSFET drivers did work, and successfully outputted the required 12V to the gates of the MOSFETs, as Figure 6 shows.
+
+<img src="images/low_side_mosfets_gate_signals.jpg" width="500" />
+
+Figure 6: Gate voltages across each of the two low-side MOSFETs.
+
+To prove that the above SPWM would result in a 50 Hz signal, the signals from the ESP32 (applied to the drivers) were filtered and the results were two back-to-back, 50 Hz sine waves (Figure 7).
+
+<img src="images/dual_filtered_spwm_50Hz.jpg" width="500" />
+
+Figure 7: Filtered versions of the SPWM applied to the MOSFET drivers.
 
 ## Presentation Video
 
