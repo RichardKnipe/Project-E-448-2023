@@ -17,7 +17,8 @@ Figure 1: The inverter PCB (excluding the transformer)
 There were also some serious mistakes with the PCB which could have been resolved had I left more time for such issues. I did not consider the fact that the university’s PCB manufacturing service did not plate vias through, since it was a cutting machine. This left me with the impossible task of making a solid soldering connection for the legs of the inductors in the tiny space in-between them and the PCB, and since the inductors were so large the solder would not melt against the legs. Another crucial mistake was choosing the wrong footprint for the MOSFET driver IC, opting for tiny pads instead of pins. This forced me to consult a soldering specialist to connect intricate wires from each PCB pad to each pad on the IC.
 
 <img src="images/PCB_partially_populated_bottom.png" width="500" />
-<img src="images/PCB_partially_populated_top.png" width="500" />
+
+Figure 2: Underside of PCB showing the wires soldered by a specialist.
 
 All in all, I learned the hard way that making mistakes is inevitable and the best way to learn. It's crucial to consider practical limitations and to not over-engineer. I learned from my father that perfectionism is one of the sins in Jonathan Rowson’s book, The Seven Deadly Chess Sins: “Self-belief is not about thinking you will never go wrong, but rather knowing you can and will go wrong, but that these mistakes don’t define you.”
 
@@ -25,7 +26,7 @@ All in all, I learned the hard way that making mistakes is inevitable and the be
 
 Although my report was already submitted, I did what I could to be prepared for the oral presentation, which also contributed to the final mark, albeit only slightly. I ended up receiving almost all the components and soldered them onto the PCB, because I reckoned that a working inverter could potentially persuade my examiner. I succeeded in getting the low-side MOSFETs of the H-bridge to switch the 24V batter voltage as designed (see Figure 1), but since the gate drivers of the high-side MOSFETs and their bootstrap circuits did not function properly and I had no spare gate drivers to replace one of them that was definitely broken, this made the inverter useless. Nevertheless, I learned some valuable lessons, such as always making sure you have enough components when time is critical, and that ample time have to be allocated for potential hardware debugging.
 
-<img src="images/.jpeg" width="500" />      (show an image of the fully populated PCB)
+<img src="images/circuit_perspective.jpeg" width="500" />
 
 ### Some Final Results
 
