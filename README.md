@@ -2,7 +2,7 @@
 
 ## Lessons from the Real World
 
-<img src="images/.jpeg" width="500" />
+<img src="images/3d_model_perspective.PNG" width="500" />
 
 This topic was chosen for its relevance to the loadshedding era, and it covered a broad spectrum of E&E engineering disciplines where competence could be tested, such as analogue electronics, power electronics, energy systems, control systems, and embedded systems. The inverter was successfully designed to keep the output voltage of 230V constant for varying loads up to 193W, and varying input voltages due to the fluctuation of the 24V battery’s voltage.
 
