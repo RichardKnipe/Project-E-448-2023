@@ -30,7 +30,7 @@ Although my report was already submitted, I did what I could to be prepared for 
 
 ### Some Final Results
 
-<video width="320" height="240" controls><source src="images/filtered_spwm_mod_index_tuning.mp4" type="video/mp4">Your browser does not support the video tag.</video>
+[![Watch the video](https://raw.githubusercontent.com/username/repository/branch/path/to/thumbnail.jpg)](https://github.com/RichardKnipe/Project-E-448-2023/blob/main/images/filtered_spwm_mod_index_tuning.mp4)
 
 ## Presentation Video
 
