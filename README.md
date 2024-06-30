@@ -2,7 +2,7 @@
 
 ## Lessons from the Real World
 
-This topic was chosen for its relevance to the loadshedding era, and it covered a broad spectrum of E&E engineering disciplines where competence could be tested, such as analogue electronics, power electronics, energy systems, control systems, and embedded systems. The inverter was successfully designed to keep the output voltage of 230V constant for varying loads up to 193W, and varying input voltages due to the fluctuation of the 24V battery’s voltage.
+This topic was chosen for its relevance to the loadshedding era, and it covered a broad spectrum of E&E engineering disciplines where competence could be tested, such as analogue electronics, power electronics, energy systems, control systems, and embedded systems. The inverter was successfully designed to keep the output voltage of 230V constant for varying loads up to 150W, and varying input voltages due to the fluctuation of the 24V battery’s voltage.
 
 However, this project failed for multiple reasons, all boiling down to a lack of experience with a real-world project, and perfectionism. Wanting to do what interested me the most, I chose a self-proposed topic that did not align well with my supervisor’s field of expertise, instead of choosing one of the three options he gave me. The result was that I seriously underestimated the time it would take to design and build both an MPPT solar charge controller and an inverter, which I insisted on making pure sine wave because I wanted to make a good quality product. The realisation came too late, forcing me to scrap all my charge controller work and to focus solely on the inverter.
 
