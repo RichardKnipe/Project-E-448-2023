@@ -22,7 +22,7 @@ Figure 2: Underside of PCB showing the wires soldered by a specialist.
 
 All in all, I learned the hard way that making mistakes is inevitable and the best way to learn. It's crucial to consider practical limitations and to not over-engineer. I learned from my father that perfectionism is one of the sins in Jonathan Rowson’s book, The Seven Deadly Chess Sins: “Self-belief is not about thinking you will never go wrong, but rather knowing you can and will go wrong, but that these mistakes don’t define you.”
 
-## Dedication until the End
+## Dedication Until the End
 
 Although my report was already submitted, I did what I could to be prepared for the oral presentation, which also contributed to the final mark, albeit only slightly. I ended up receiving almost all the components and soldered them onto the PCB, because I reckoned that a working inverter could potentially persuade my examiner. I succeeded in getting the low-side MOSFETs of the H-bridge to switch the 24V batter voltage as designed (see Figure 1), but since the gate drivers of the high-side MOSFETs and their bootstrap circuits did not function properly and I had no spare gate drivers to replace one of them that was definitely broken, this made the inverter useless. Nevertheless, I learned some valuable lessons, such as always making sure you have enough components when time is critical, and that ample time have to be allocated for potential hardware debugging.
 
@@ -30,9 +30,12 @@ Although my report was already submitted, I did what I could to be prepared for 
 
 ### Some Final Results
 
+<video width="320" height="240" controls>
+    <source src="images/filtered_spwm_mod_index_tuning.mp4" type="video/mp4">
+    Your browser does not support the video tag.
+  </video>
 
-
-<img src="images/.jpeg" width="500" />
+<img src="" width="500" />
 
 
 ## Presentation Video
